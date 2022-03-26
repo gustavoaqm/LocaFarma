@@ -1,0 +1,25 @@
+
+
+.tabelaum{
+	margin: 0 auto;
+	color: white;
+	font-family: Microsoft PhagsPa;
+}
+
+table{
+	text-align: center;
+}
+
+td {
+  border: 1px ;
+  padding: 5px 4px;
+}
+
+table thead {
+  background: #008080;
+  font-weight: bold;
+  color: white;
+  font-family: Microsoft PhagsPa;
+  /*background: #008080;*/
+  border-bottom: 3px solid #008080;
+}

@@ -1,0 +1,312 @@
+body
+{
+	background-color: #97cce6;
+	background: transparent url('../imagens/fundo5.png') center center no-repeat fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+  
+}
+
+a{
+  text-decoration: none;
+}
+.titulo
+{
+	font-family: Microsoft PhagsPa;
+	color: white; 
+	text-shadow: 5px 2px 7px rgba(0,0,0,0.37);
+	margin-left: 700px;
+}
+
+h1{
+	line-height: 1px;
+	font-size: 50px;
+}
+
+.bemvindoHome{
+  line-height: 1px;
+  font-size: 75px;
+  color: white;
+  font-family: Microsoft PhagsPa;
+  margin-left: 10%;
+}
+
+
+.h2navbar{
+	line-height: 10px;
+	margin-left: 225px;
+}
+
+.remedio1{
+	margin-left: 300px;
+}
+
+.remedio2{
+	margin-right: 300px;
+}
+
+
+/*NAVBARRRRRRRRRR*/
+#navbar ul{
+	list-style: none;
+	background-color: black;
+	text-align: center;
+	padding: 0;
+	margin:0;
+}
+
+#navbar li{
+	display: inline-block;
+}
+
+#navbar a{
+	text-decoration:none;
+	color: #fff;
+	width: 100px;
+	display: block;
+	padding: 15px;
+	font-size: 18px;
+	font-family: Microsoft PhagsPa;
+	transition: 0.4s;
+}
+
+#navbar a:hover {
+	background: rgba(255,255,255,0.6);
+	transition: 0.4s;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*NAVBAAAAAAAAAAARRRR*/
+
+.mapa{
+	border:5px solid black;
+	border-radius: 5px;
+    display: flex;
+    width: 1300px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.titulu{
+	font-family: Microsoft PhagsPa;
+	color: white;
+	text-align: center;
+  font-size: 30px;
+  text-shadow: 3px 2px 2px rgba(0,0,0,0.37);
+}
+
+/*footer*/
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: black;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+
+/*CARTÕES*/
+.cards-list {
+  z-index: 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  font-family: Microsoft PhagsPa;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 2px 2px rgba(0,0,0,0.37);
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.botaoHome {
+  background-color:#008080; 
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  /*margin: 4px 2px;*/
+  transition-duration: 3.5s;
+  cursor: pointer;
+  width: 20%;
+  margin-left: 10%;
+}
+
+.botaoHome:hover {background-color: #004747; color: white; transition: 0.4s;}
+
+
+.fundaumHome{
+  background-color: rgba(0, 0, 0, 0.3);
+  /*background: white;*/
+}
+
+.bannerHome{
+  float:right;
+  width: 40%;
+  margin-right: 10%; 
+}

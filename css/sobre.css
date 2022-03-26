@@ -1,0 +1,59 @@
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.responsive{
+	width: 100%;
+	height: auto;
+}
+
+
+/*.fundo-branco{
+	background-color: #fff;
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+*/
+
+.triangulo{
+	float:right;
+  	margin-left: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.conteudo{
+	border:5px solid rgba(255,255,255,0);
+	width: 900px;
+	color: white;
+	font-family: Microsoft PhagsPa;
+}
+
+.sobretitulo{
+	margin-left: 150px;
+	font-family: Microsoft PhagsPa;
+	color: white; 
+	text-shadow: 5px 2px 7px rgba(0,0,0,0.37);
+}
+
+.sug{
+	color: white;
+}
+
+.contactar{
+	color: white;
+}
+
+.contactar:hover{
+	color: black;
+	transition:  0.6s;
+}
+
+
